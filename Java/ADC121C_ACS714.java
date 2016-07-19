@@ -2,7 +2,7 @@
 // Use it any way you want, profit or free, provided it fits in the licenses of its associated works.
 // ADC121C_ACS714
 // This code is designed to work with the ADC121C_I2CS_ACS714 I2C Mini Module available from ControlEverything.com.
-// https://www.controleverything.com/content/Hall-Effect?sku=ADC121C_I2CS_ACS714
+// https://www.controleverything.com/content/Hall-Effect?sku=ADC121C_I2CS_ACS714#tabs-0-product_tabset-2
 
 import com.pi4j.io.i2c.I2CBus;
 import com.pi4j.io.i2c.I2CDevice;
