@@ -59,7 +59,7 @@ void loop()
   int raw_adc = ((data[0] & 0x0F) * 256) + data[1];
   current = raw_adc / 1000.0;
 
-  // Output data to serial monitor
+  // Output data to dashboard
   Particle.publish("Instantaneous Current value : ", String(current));
   delay(1000);
 }
